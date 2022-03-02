@@ -1,6 +1,5 @@
 import express from "express"; 
 import twig from "twig"; 
-import fetch from "node-fetch"; 
 import bodyParser from 'body-parser'
 import fs from 'fs';
 import nodemailer from "nodemailer";
