@@ -1,0 +1,79 @@
+header{
+    padding: 50px;
+    background-image: url(../img/header1.png);
+    background-size: 100%;
+    text-align: center;
+}
+footer{
+    padding-top: 10px;
+background-size: 100%;
+background-image: url(../img/bgheader.png);
+color: rgba(245, 245, 245);
+display: flex;
+justify-content: space-around;
+}
+.geneButton{
+    border-radius: 10%;
+    background-image: url(../img/fond\ bleu\ thumb-1920-632499.jpg);
+    background-size: 100%;
+    width: 180px;
+    height: 180px;
+    padding: 20px;
+    margin: 10px;
+}
+.contactButton{
+    border-radius: 10%;
+    background-color:  rgb(9, 11, 107) ;
+    width: 180px;
+    height: 80px;
+    padding: 20px;
+    margin: 10px;
+}
+form {
+    border-radius: 10%;
+    border: solid 3px;
+    margin-top: 20px;
+}
+.coord {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+#message {
+width: 400px;
+}
+.no-underline{
+    text-decoration: none;
+    color: rgba(245, 245, 245);
+}
+.projImg {
+    width: 250px;
+    height: 250px;
+    margin-bottom: 10px;
+}
+section{
+    padding: 20px;
+}
+
+@font-face {
+    font-family: "crack";
+    src: url(../font/crackvetica/Crackvetica.ttf);
+}
+h1, h2{
+    font-family: crack;
+    color: rgba(245, 245, 245);
+}
+h3{
+    color: rgba(245, 245, 245);
+    font-weight: bold;
+}
+main{
+    background-color: rgb(9, 11, 107);
+    color: rgba(245, 245, 245);
+}
+.project {
+    border-radius: 5%;
+    border: solid 2px;
+}
+
+
+
